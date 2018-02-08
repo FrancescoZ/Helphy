@@ -1,0 +1,151 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Cartography (1.1.0)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - CircleMenu (2.0.5)
+  - FaceAware (1.2.0)
+  - FBSDKCoreKit (4.23.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.23.0):
+    - FBSDKCoreKit
+  - Firebase/Auth (4.0.2):
+    - Firebase/Core
+    - FirebaseAuth (= 4.0.0)
+  - Firebase/Core (4.0.2):
+    - FirebaseAnalytics (= 4.0.1)
+    - FirebaseCore (= 4.0.2)
+  - FirebaseAnalytics (4.0.1):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseAuth (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseCore (4.0.2):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseUI/Auth (4.0.0):
+    - Firebase/Auth
+  - FirebaseUI/Facebook (4.0.0):
+    - FBSDKLoginKit (~> 4.0)
+    - FirebaseUI/Auth
+  - FirebaseUI/Google (4.0.0):
+    - FirebaseUI/Auth
+    - GoogleSignIn (~> 4.0)
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - GoogleSignIn (4.0.2):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1):
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
+  - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.10):
+    - GTMSessionFetcher/Full (= 1.1.10)
+  - GTMSessionFetcher/Core (1.1.10)
+  - GTMSessionFetcher/Full (1.1.10):
+    - GTMSessionFetcher/Core (= 1.1.10)
+  - Hue (2.0.1)
+  - Pages (1.0.0)
+  - Presentation (3.1.0):
+    - Cartography
+    - Pages
+  - RxCocoa (3.5.0):
+    - RxSwift (~> 3.4)
+  - RxSwift (3.5.0)
+  - Spring (1.0.3)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift
+  - CircleMenu (~> 2.0.1)
+  - FaceAware
+  - Firebase/Auth
+  - Firebase/Core
+  - FirebaseUI/Auth (~> 4.0)
+  - FirebaseUI/Facebook (~> 4.0)
+  - FirebaseUI/Google (~> 4.0)
+  - FontAwesomeKit
+  - Hue
+  - Presentation
+  - RxCocoa (~> 3.0)
+  - RxSwift (~> 3.0)
+  - Spring (from `https://github.com/MengTo/Spring.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  Spring:
+    :branch: swift3
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 8201b5c93bd7ebdf4cd18160bcde1e6e88c2be64
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Cartography: 0538ccb4044acbbda2266335fc58cb4228794d90
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  CircleMenu: 7cef16b4401de5b545e5f06d720cb202ec64800d
+  FaceAware: 421436f9d16aacdb26ffcf8e5a39a1dd68630395
+  FBSDKCoreKit: d7829f5a69901cd7296105328e4c3c3fc7da6518
+  FBSDKLoginKit: 6b92bd65f319d669d2b0730e49db495ef1660566
+  Firebase: c7ad0731eab26d18a3fc547dd048b0f7cd9c63ae
+  FirebaseAnalytics: 4d7040fefc3cd8b291cde35f12cf063d7963f15d
+  FirebaseAuth: ebb6abcbabae00fc47446d690c19ce68d8484fde
+  FirebaseCore: 1a8bf6c795ad07d2918278657954ffd2552e9c17
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseUI: b9de05bfb4768db05f64ea90fc2f6a07b819118f
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMOAuth2: 7fc9c10f5c745f4d9850419ea88889fe3baa6b7d
+  GTMSessionFetcher: 30d874b96d0d76028f61fbd122801e3f030d47db
+  Hue: 354caec055fdc9d38b5ef33ca2e7224721843baf
+  Pages: f3718e6f03a5e2787f6b0bff4becb3c7c19bcebc
+  Presentation: c6276289c0786e6edaad45782259cd8af031db06
+  RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
+  RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  Spring: 3f02b5dc3308572ef177b3cad0fa7bbc4b0706f7
+
+PODFILE CHECKSUM: b22de8f4f9609811e89c5d02b766b9a353b939bd
+
+COCOAPODS: 1.2.1

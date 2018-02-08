@@ -1,0 +1,1132 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421C3CEB1F0FF36E00965814 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CEA1F0FF36E00965814 /* User.swift */; };
+		421C3CEC1F0FF36E00965814 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CEA1F0FF36E00965814 /* User.swift */; };
+		421C3CED1F0FF36E00965814 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CEA1F0FF36E00965814 /* User.swift */; };
+		421C3CF01F0FF70D00965814 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CEF1F0FF70D00965814 /* Photo.swift */; };
+		421C3CF11F0FF70D00965814 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CEF1F0FF70D00965814 /* Photo.swift */; };
+		421C3CF21F0FF70D00965814 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CEF1F0FF70D00965814 /* Photo.swift */; };
+		421C3CF51F0FF73E00965814 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CF41F0FF73E00965814 /* Helper.swift */; };
+		421C3CF61F0FF73E00965814 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CF41F0FF73E00965814 /* Helper.swift */; };
+		421C3CF71F0FF73E00965814 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CF41F0FF73E00965814 /* Helper.swift */; };
+		421C3CF81F0FF73E00965814 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CF41F0FF73E00965814 /* Helper.swift */; };
+		421C3CFA1F10F24200965814 /* UserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CF91F10F24200965814 /* UserTest.swift */; };
+		421C3CFC1F110AEA00965814 /* PhotoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CFB1F110AEA00965814 /* PhotoTest.swift */; };
+		421C3D011F112E6A00965814 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D001F112E6A00965814 /* UserViewModel.swift */; };
+		421C3D021F112E6A00965814 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D001F112E6A00965814 /* UserViewModel.swift */; };
+		421C3D041F11301800965814 /* UserViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D031F11301800965814 /* UserViewModelTest.swift */; };
+		421C3D051F1130D100965814 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D001F112E6A00965814 /* UserViewModel.swift */; };
+		421C3D081F113DF100965814 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D071F113DF100965814 /* ImageHelper.swift */; };
+		421C3D091F113DF100965814 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D071F113DF100965814 /* ImageHelper.swift */; };
+		421C3D0B1F12151700965814 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D0A1F12151700965814 /* PhotoViewModel.swift */; };
+		421C3D0C1F12151700965814 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D0A1F12151700965814 /* PhotoViewModel.swift */; };
+		421C3D0E1F12168A00965814 /* PhotoViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D0D1F12168A00965814 /* PhotoViewModelTest.swift */; };
+		421C3D0F1F12169400965814 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D0A1F12151700965814 /* PhotoViewModel.swift */; };
+		421C3D111F12200600965814 /* SearchViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D101F12200600965814 /* SearchViewControllerTest.swift */; };
+		421C3D121F12202200965814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AE6D3B1EF29FD200F49CD2 /* Main.storyboard */; };
+		421C3D131F12202900965814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E7EB7B1EF28E01004C5B61 /* LaunchScreen.storyboard */; };
+		421C3D141F12203D00965814 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422A2C971EF31C570020AAC8 /* SearchViewController.swift */; };
+		421C3D151F1220FA00965814 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D0A1F12151700965814 /* PhotoViewModel.swift */; };
+		421C3D161F1220FC00965814 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D001F112E6A00965814 /* UserViewModel.swift */; };
+		421C3D171F12210100965814 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CEA1F0FF36E00965814 /* User.swift */; };
+		421C3D181F12210400965814 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3CEF1F0FF70D00965814 /* Photo.swift */; };
+		421C3D191F12211800965814 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C0CE061EF7F72400D07C4A /* PhotoCollectionViewCell.swift */; };
+		421C3D1A1F12211E00965814 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42978ECF1EF43FAA004C08BD /* UserCell.swift */; };
+		421C3D1B1F12212800965814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E7EB6F1EF28E01004C5B61 /* AppDelegate.swift */; };
+		421C3D1C1F12213600965814 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421C3D071F113DF100965814 /* ImageHelper.swift */; };
+		421C3D1D1F12214400965814 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422A2CB71EF36D500020AAC8 /* PhotoDetailViewController.swift */; };
+		421C3D1E1F12214600965814 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C0CDFE1EF7E08200D07C4A /* ProfileViewController.swift */; };
+		422A2C981EF31C570020AAC8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422A2C971EF31C570020AAC8 /* SearchViewController.swift */; };
+		422A2CB81EF36D500020AAC8 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422A2CB71EF36D500020AAC8 /* PhotoDetailViewController.swift */; };
+		42944BA91F0DA87A004DE716 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422A2CB71EF36D500020AAC8 /* PhotoDetailViewController.swift */; };
+		42944BAA1F0DA87A004DE716 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42978ECF1EF43FAA004C08BD /* UserCell.swift */; };
+		42944BAB1F0DA87A004DE716 /* PhotoTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C0CE101EF88E2C00D07C4A /* PhotoTransitionManager.swift */; };
+		42944BAC1F0DA87A004DE716 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E7EB711EF28E01004C5B61 /* MenuViewController.swift */; };
+		42944BAD1F0DA87A004DE716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E7EB6F1EF28E01004C5B61 /* AppDelegate.swift */; };
+		42944BAE1F0DA87A004DE716 /* Helphy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42E7EB761EF28E01004C5B61 /* Helphy.xcdatamodeld */; };
+		42944BAF1F0DA87A004DE716 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C0CE061EF7F72400D07C4A /* PhotoCollectionViewCell.swift */; };
+		42944BB01F0DA87A004DE716 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C0CDFE1EF7E08200D07C4A /* ProfileViewController.swift */; };
+		42944BB11F0DA87A004DE716 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422A2C971EF31C570020AAC8 /* SearchViewController.swift */; };
+		42944BB51F0DA87A004DE716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AE6D3B1EF29FD200F49CD2 /* Main.storyboard */; };
+		42944BB61F0DA87A004DE716 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BA548F1F0A51E600B033C4 /* GoogleService-Info.plist */; };
+		42944BB71F0DA87A004DE716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E7EB7B1EF28E01004C5B61 /* LaunchScreen.storyboard */; };
+		42944BB81F0DA87A004DE716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E7EB791EF28E01004C5B61 /* Assets.xcassets */; };
+		42978ED01EF43FAA004C08BD /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42978ECF1EF43FAA004C08BD /* UserCell.swift */; };
+		42AE6D3D1EF29FD200F49CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AE6D3B1EF29FD200F49CD2 /* Main.storyboard */; };
+		42BA54901F0A51E600B033C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42BA548F1F0A51E600B033C4 /* GoogleService-Info.plist */; };
+		42C0CDFF1EF7E08200D07C4A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C0CDFE1EF7E08200D07C4A /* ProfileViewController.swift */; };
+		42C0CE071EF7F72400D07C4A /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C0CE061EF7F72400D07C4A /* PhotoCollectionViewCell.swift */; };
+		42C0CE111EF88E2C00D07C4A /* PhotoTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C0CE101EF88E2C00D07C4A /* PhotoTransitionManager.swift */; };
+		42E7EB701EF28E01004C5B61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E7EB6F1EF28E01004C5B61 /* AppDelegate.swift */; };
+		42E7EB721EF28E01004C5B61 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E7EB711EF28E01004C5B61 /* MenuViewController.swift */; };
+		42E7EB781EF28E01004C5B61 /* Helphy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 42E7EB761EF28E01004C5B61 /* Helphy.xcdatamodeld */; };
+		42E7EB7A1EF28E01004C5B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E7EB791EF28E01004C5B61 /* Assets.xcassets */; };
+		42E7EB7D1EF28E01004C5B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E7EB7B1EF28E01004C5B61 /* LaunchScreen.storyboard */; };
+		4BADAD31074DD1D669A9C5CA /* Pods_Helphy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEB6E39A3572A68D8ED761A /* Pods_Helphy.framework */; };
+		4DD7E6F15DCB8036C421BD60 /* Pods_HelphyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D378E1FD269385712F45A41B /* Pods_HelphyUITests.framework */; };
+		84A7D1B51B425E4747244693 /* Pods_HelphyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 793308BEFF66A4F11BFA75F7 /* Pods_HelphyTests.framework */; };
+		F77C72D946B4E12A6A71FC4E /* Pods_Helphy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEB6E39A3572A68D8ED761A /* Pods_Helphy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42E7EB841EF28E01004C5B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42E7EB641EF28E01004C5B61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E7EB6B1EF28E01004C5B61;
+			remoteInfo = Helphy;
+		};
+		42E7EB8F1EF28E01004C5B61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42E7EB641EF28E01004C5B61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E7EB6B1EF28E01004C5B61;
+			remoteInfo = Helphy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2135B32AFC9042BD67776C72 /* Pods-Helphy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helphy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Helphy/Pods-Helphy.release.xcconfig"; sourceTree = "<group>"; };
+		2CEB6E39A3572A68D8ED761A /* Pods_Helphy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Helphy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		421C3CEA1F0FF36E00965814 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		421C3CEF1F0FF70D00965814 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		421C3CF41F0FF73E00965814 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		421C3CF91F10F24200965814 /* UserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTest.swift; sourceTree = "<group>"; };
+		421C3CFB1F110AEA00965814 /* PhotoTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTest.swift; sourceTree = "<group>"; };
+		421C3D001F112E6A00965814 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		421C3D031F11301800965814 /* UserViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewModelTest.swift; sourceTree = "<group>"; };
+		421C3D071F113DF100965814 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		421C3D0A1F12151700965814 /* PhotoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		421C3D0D1F12168A00965814 /* PhotoViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewModelTest.swift; sourceTree = "<group>"; };
+		421C3D101F12200600965814 /* SearchViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTest.swift; sourceTree = "<group>"; };
+		422A2C971EF31C570020AAC8 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		422A2CB71EF36D500020AAC8 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		42944BBE1F0DA87A004DE716 /* Helphy Development.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Helphy Development.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42944BBF1F0DA87A004DE716 /* Helphy copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Helphy copy-Info.plist"; path = "/Users/francescozanoli/Downloads/OneDrive/OneDrive - Politecnico di Milano/Project/Swift/Helphy/Helphy copy-Info.plist"; sourceTree = "<absolute>"; };
+		42978ECF1EF43FAA004C08BD /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		42AE6D3C1EF29FD200F49CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42BA548F1F0A51E600B033C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		42C0CDFE1EF7E08200D07C4A /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		42C0CE061EF7F72400D07C4A /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		42C0CE101EF88E2C00D07C4A /* PhotoTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTransitionManager.swift; sourceTree = "<group>"; };
+		42E7EB6C1EF28E01004C5B61 /* Helphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E7EB6F1EF28E01004C5B61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42E7EB711EF28E01004C5B61 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		42E7EB771EF28E01004C5B61 /* Helphy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Helphy.xcdatamodel; sourceTree = "<group>"; };
+		42E7EB791EF28E01004C5B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42E7EB7C1EF28E01004C5B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42E7EB7E1EF28E01004C5B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E7EB831EF28E01004C5B61 /* HelphyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelphyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E7EB891EF28E01004C5B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42E7EB8E1EF28E01004C5B61 /* HelphyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelphyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E7EB941EF28E01004C5B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45244482D5321155919BF9D7 /* Pods-HelphyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelphyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelphyTests/Pods-HelphyTests.release.xcconfig"; sourceTree = "<group>"; };
+		614A56E2F872336229759D89 /* Pods-HelphyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelphyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelphyTests/Pods-HelphyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		72B65135680436916F6F2230 /* Pods-Helphy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helphy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Helphy/Pods-Helphy.debug.xcconfig"; sourceTree = "<group>"; };
+		793308BEFF66A4F11BFA75F7 /* Pods_HelphyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelphyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0E5946BE85A53471776D9C /* Pods-HelphyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelphyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelphyUITests/Pods-HelphyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B62447EE562A5A00CE4C9FFA /* Pods-HelphyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelphyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelphyUITests/Pods-HelphyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D378E1FD269385712F45A41B /* Pods_HelphyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelphyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42944BB21F0DA87A004DE716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E7EB691EF28E01004C5B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BADAD31074DD1D669A9C5CA /* Pods_Helphy.framework in Frameworks */,
+				F77C72D946B4E12A6A71FC4E /* Pods_Helphy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E7EB801EF28E01004C5B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A7D1B51B425E4747244693 /* Pods_HelphyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E7EB8B1EF28E01004C5B61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DD7E6F15DCB8036C421BD60 /* Pods_HelphyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421C3D061F113DCB00965814 /* ViewHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				421C3D071F113DF100965814 /* ImageHelper.swift */,
+			);
+			name = ViewHelpers;
+			sourceTree = "<group>";
+		};
+		42944B9B1F0DA6AD004DE716 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				421C3CEA1F0FF36E00965814 /* User.swift */,
+				421C3CEF1F0FF70D00965814 /* Photo.swift */,
+				421C3CF41F0FF73E00965814 /* Helper.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		42944B9C1F0DA6B4004DE716 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42E7EB7B1EF28E01004C5B61 /* LaunchScreen.storyboard */,
+				42AE6D3B1EF29FD200F49CD2 /* Main.storyboard */,
+				42C0CE0E1EF889EA00D07C4A /* Animation */,
+				42C0CDFD1EF7DB2700D07C4A /* Profile */,
+				42C0CDF41EF71E1500D07C4A /* Search */,
+				42C0CDEF1EF709FD00D07C4A /* Menu */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		42944B9D1F0DA6B9004DE716 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				421C3D001F112E6A00965814 /* UserViewModel.swift */,
+				421C3D0A1F12151700965814 /* PhotoViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		42944B9E1F0DA6D6004DE716 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		42944B9F1F0DA6EB004DE716 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				421C3D061F113DCB00965814 /* ViewHelpers */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		42944BA01F0DA749004DE716 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		42944BA11F0DA74D004DE716 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		42944BA31F0DA75D004DE716 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				421C3CF91F10F24200965814 /* UserTest.swift */,
+				421C3CFB1F110AEA00965814 /* PhotoTest.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		42944BA41F0DA761004DE716 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				421C3D031F11301800965814 /* UserViewModelTest.swift */,
+				421C3D0D1F12168A00965814 /* PhotoViewModelTest.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		42944BA51F0DA775004DE716 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				421C3D101F12200600965814 /* SearchViewControllerTest.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		42C0CDEF1EF709FD00D07C4A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				42E7EB711EF28E01004C5B61 /* MenuViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		42C0CDF41EF71E1500D07C4A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				422A2C971EF31C570020AAC8 /* SearchViewController.swift */,
+				42978ECF1EF43FAA004C08BD /* UserCell.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		42C0CDFD1EF7DB2700D07C4A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				42C0CE151EF88F0600D07C4A /* Photo */,
+				42C0CDFE1EF7E08200D07C4A /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		42C0CE0E1EF889EA00D07C4A /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				42C0CE141EF88E3600D07C4A /* Photo */,
+				42C0CE0F1EF889F200D07C4A /* Menu */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		42C0CE0F1EF889F200D07C4A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		42C0CE141EF88E3600D07C4A /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				42C0CE101EF88E2C00D07C4A /* PhotoTransitionManager.swift */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		42C0CE151EF88F0600D07C4A /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				422A2CB71EF36D500020AAC8 /* PhotoDetailViewController.swift */,
+				42C0CE061EF7F72400D07C4A /* PhotoCollectionViewCell.swift */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		42E7EB631EF28E01004C5B61 = {
+			isa = PBXGroup;
+			children = (
+				42E7EB6E1EF28E01004C5B61 /* Helphy */,
+				42E7EB861EF28E01004C5B61 /* HelphyTests */,
+				42E7EB911EF28E01004C5B61 /* HelphyUITests */,
+				42E7EB6D1EF28E01004C5B61 /* Products */,
+				B97C0F1AB31001AB8BD4CB9C /* Pods */,
+				ECB8C096D17C4DC2782D892F /* Frameworks */,
+				42944BBF1F0DA87A004DE716 /* Helphy copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		42E7EB6D1EF28E01004C5B61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42E7EB6C1EF28E01004C5B61 /* Helphy.app */,
+				42E7EB831EF28E01004C5B61 /* HelphyTests.xctest */,
+				42E7EB8E1EF28E01004C5B61 /* HelphyUITests.xctest */,
+				42944BBE1F0DA87A004DE716 /* Helphy Development.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42E7EB6E1EF28E01004C5B61 /* Helphy */ = {
+			isa = PBXGroup;
+			children = (
+				42944B9F1F0DA6EB004DE716 /* Helpers */,
+				42944B9E1F0DA6D6004DE716 /* Stores */,
+				42944B9D1F0DA6B9004DE716 /* ViewModels */,
+				42944B9C1F0DA6B4004DE716 /* Views */,
+				42944B9B1F0DA6AD004DE716 /* Models */,
+				42BA548F1F0A51E600B033C4 /* GoogleService-Info.plist */,
+				42E7EB6F1EF28E01004C5B61 /* AppDelegate.swift */,
+				42E7EB791EF28E01004C5B61 /* Assets.xcassets */,
+				42E7EB7E1EF28E01004C5B61 /* Info.plist */,
+				42E7EB761EF28E01004C5B61 /* Helphy.xcdatamodeld */,
+			);
+			path = Helphy;
+			sourceTree = "<group>";
+		};
+		42E7EB861EF28E01004C5B61 /* HelphyTests */ = {
+			isa = PBXGroup;
+			children = (
+				42944BA41F0DA761004DE716 /* ViewModels */,
+				42944BA31F0DA75D004DE716 /* Models */,
+				42944BA11F0DA74D004DE716 /* Stores */,
+				42944BA01F0DA749004DE716 /* Helpers */,
+				42E7EB891EF28E01004C5B61 /* Info.plist */,
+			);
+			path = HelphyTests;
+			sourceTree = "<group>";
+		};
+		42E7EB911EF28E01004C5B61 /* HelphyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42944BA51F0DA775004DE716 /* Views */,
+				42E7EB941EF28E01004C5B61 /* Info.plist */,
+			);
+			path = HelphyUITests;
+			sourceTree = "<group>";
+		};
+		B97C0F1AB31001AB8BD4CB9C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				614A56E2F872336229759D89 /* Pods-HelphyTests.debug.xcconfig */,
+				45244482D5321155919BF9D7 /* Pods-HelphyTests.release.xcconfig */,
+				B62447EE562A5A00CE4C9FFA /* Pods-HelphyUITests.debug.xcconfig */,
+				7A0E5946BE85A53471776D9C /* Pods-HelphyUITests.release.xcconfig */,
+				72B65135680436916F6F2230 /* Pods-Helphy.debug.xcconfig */,
+				2135B32AFC9042BD67776C72 /* Pods-Helphy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ECB8C096D17C4DC2782D892F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CEB6E39A3572A68D8ED761A /* Pods_Helphy.framework */,
+				793308BEFF66A4F11BFA75F7 /* Pods_HelphyTests.framework */,
+				D378E1FD269385712F45A41B /* Pods_HelphyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42944BA61F0DA87A004DE716 /* Helphy Development */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42944BBB1F0DA87A004DE716 /* Build configuration list for PBXNativeTarget "Helphy Development" */;
+			buildPhases = (
+				42944BA81F0DA87A004DE716 /* Sources */,
+				42944BB21F0DA87A004DE716 /* Frameworks */,
+				42944BB41F0DA87A004DE716 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Helphy Development";
+			productName = Helphy;
+			productReference = 42944BBE1F0DA87A004DE716 /* Helphy Development.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42E7EB6B1EF28E01004C5B61 /* Helphy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E7EB971EF28E01004C5B61 /* Build configuration list for PBXNativeTarget "Helphy" */;
+			buildPhases = (
+				F8C1FF4B26925259997C533E /* [CP] Check Pods Manifest.lock */,
+				42E7EB681EF28E01004C5B61 /* Sources */,
+				42E7EB691EF28E01004C5B61 /* Frameworks */,
+				42E7EB6A1EF28E01004C5B61 /* Resources */,
+				E6AF0F11D116AC9A00712730 /* [CP] Embed Pods Frameworks */,
+				633837E2157F98E49E5E3836 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Helphy;
+			productName = Helphy;
+			productReference = 42E7EB6C1EF28E01004C5B61 /* Helphy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42E7EB821EF28E01004C5B61 /* HelphyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E7EB9A1EF28E01004C5B61 /* Build configuration list for PBXNativeTarget "HelphyTests" */;
+			buildPhases = (
+				C5B05A6D9A4668854B015D6A /* [CP] Check Pods Manifest.lock */,
+				42E7EB7F1EF28E01004C5B61 /* Sources */,
+				42E7EB801EF28E01004C5B61 /* Frameworks */,
+				42E7EB811EF28E01004C5B61 /* Resources */,
+				921F38BB4C771637D75D39E0 /* [CP] Embed Pods Frameworks */,
+				48248898922B164C3A60EC48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42E7EB851EF28E01004C5B61 /* PBXTargetDependency */,
+			);
+			name = HelphyTests;
+			productName = HelphyTests;
+			productReference = 42E7EB831EF28E01004C5B61 /* HelphyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42E7EB8D1EF28E01004C5B61 /* HelphyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E7EB9D1EF28E01004C5B61 /* Build configuration list for PBXNativeTarget "HelphyUITests" */;
+			buildPhases = (
+				263BA87C081FA9FB92FAF9D4 /* [CP] Check Pods Manifest.lock */,
+				42E7EB8A1EF28E01004C5B61 /* Sources */,
+				42E7EB8B1EF28E01004C5B61 /* Frameworks */,
+				42E7EB8C1EF28E01004C5B61 /* Resources */,
+				3DD1B2722DB0F9F81A4D39C6 /* [CP] Embed Pods Frameworks */,
+				F91CE9429D79D146106B150D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42E7EB901EF28E01004C5B61 /* PBXTargetDependency */,
+			);
+			name = HelphyUITests;
+			productName = HelphyUITests;
+			productReference = 42E7EB8E1EF28E01004C5B61 /* HelphyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42E7EB641EF28E01004C5B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Francesco Zanoli";
+				TargetAttributes = {
+					42E7EB6B1EF28E01004C5B61 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					42E7EB821EF28E01004C5B61 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42E7EB6B1EF28E01004C5B61;
+					};
+					42E7EB8D1EF28E01004C5B61 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 42E7EB6B1EF28E01004C5B61;
+					};
+				};
+			};
+			buildConfigurationList = 42E7EB671EF28E01004C5B61 /* Build configuration list for PBXProject "Helphy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42E7EB631EF28E01004C5B61;
+			productRefGroup = 42E7EB6D1EF28E01004C5B61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42E7EB6B1EF28E01004C5B61 /* Helphy */,
+				42944BA61F0DA87A004DE716 /* Helphy Development */,
+				42E7EB821EF28E01004C5B61 /* HelphyTests */,
+				42E7EB8D1EF28E01004C5B61 /* HelphyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42944BB41F0DA87A004DE716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42944BB51F0DA87A004DE716 /* Main.storyboard in Resources */,
+				42944BB61F0DA87A004DE716 /* GoogleService-Info.plist in Resources */,
+				42944BB71F0DA87A004DE716 /* LaunchScreen.storyboard in Resources */,
+				42944BB81F0DA87A004DE716 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E7EB6A1EF28E01004C5B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AE6D3D1EF29FD200F49CD2 /* Main.storyboard in Resources */,
+				42BA54901F0A51E600B033C4 /* GoogleService-Info.plist in Resources */,
+				42E7EB7D1EF28E01004C5B61 /* LaunchScreen.storyboard in Resources */,
+				42E7EB7A1EF28E01004C5B61 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E7EB811EF28E01004C5B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E7EB8C1EF28E01004C5B61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421C3D121F12202200965814 /* Main.storyboard in Resources */,
+				421C3D131F12202900965814 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		263BA87C081FA9FB92FAF9D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD1B2722DB0F9F81A4D39C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelphyUITests/Pods-HelphyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48248898922B164C3A60EC48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelphyTests/Pods-HelphyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		633837E2157F98E49E5E3836 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Helphy/Pods-Helphy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		921F38BB4C771637D75D39E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelphyTests/Pods-HelphyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5B05A6D9A4668854B015D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AF0F11D116AC9A00712730 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Helphy/Pods-Helphy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C1FF4B26925259997C533E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F91CE9429D79D146106B150D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelphyUITests/Pods-HelphyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42944BA81F0DA87A004DE716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42944BA91F0DA87A004DE716 /* PhotoDetailViewController.swift in Sources */,
+				42944BAA1F0DA87A004DE716 /* UserCell.swift in Sources */,
+				42944BAB1F0DA87A004DE716 /* PhotoTransitionManager.swift in Sources */,
+				42944BAC1F0DA87A004DE716 /* MenuViewController.swift in Sources */,
+				421C3D0C1F12151700965814 /* PhotoViewModel.swift in Sources */,
+				42944BAD1F0DA87A004DE716 /* AppDelegate.swift in Sources */,
+				421C3CEC1F0FF36E00965814 /* User.swift in Sources */,
+				42944BAE1F0DA87A004DE716 /* Helphy.xcdatamodeld in Sources */,
+				421C3CF11F0FF70D00965814 /* Photo.swift in Sources */,
+				42944BAF1F0DA87A004DE716 /* PhotoCollectionViewCell.swift in Sources */,
+				421C3D021F112E6A00965814 /* UserViewModel.swift in Sources */,
+				42944BB01F0DA87A004DE716 /* ProfileViewController.swift in Sources */,
+				42944BB11F0DA87A004DE716 /* SearchViewController.swift in Sources */,
+				421C3CF61F0FF73E00965814 /* Helper.swift in Sources */,
+				421C3D091F113DF100965814 /* ImageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E7EB681EF28E01004C5B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422A2CB81EF36D500020AAC8 /* PhotoDetailViewController.swift in Sources */,
+				42978ED01EF43FAA004C08BD /* UserCell.swift in Sources */,
+				42C0CE111EF88E2C00D07C4A /* PhotoTransitionManager.swift in Sources */,
+				42E7EB721EF28E01004C5B61 /* MenuViewController.swift in Sources */,
+				421C3D0B1F12151700965814 /* PhotoViewModel.swift in Sources */,
+				42E7EB701EF28E01004C5B61 /* AppDelegate.swift in Sources */,
+				421C3CEB1F0FF36E00965814 /* User.swift in Sources */,
+				42E7EB781EF28E01004C5B61 /* Helphy.xcdatamodeld in Sources */,
+				421C3CF01F0FF70D00965814 /* Photo.swift in Sources */,
+				42C0CE071EF7F72400D07C4A /* PhotoCollectionViewCell.swift in Sources */,
+				421C3D011F112E6A00965814 /* UserViewModel.swift in Sources */,
+				42C0CDFF1EF7E08200D07C4A /* ProfileViewController.swift in Sources */,
+				422A2C981EF31C570020AAC8 /* SearchViewController.swift in Sources */,
+				421C3CF51F0FF73E00965814 /* Helper.swift in Sources */,
+				421C3D081F113DF100965814 /* ImageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E7EB7F1EF28E01004C5B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421C3CF21F0FF70D00965814 /* Photo.swift in Sources */,
+				421C3D0E1F12168A00965814 /* PhotoViewModelTest.swift in Sources */,
+				421C3D041F11301800965814 /* UserViewModelTest.swift in Sources */,
+				421C3CED1F0FF36E00965814 /* User.swift in Sources */,
+				421C3D0F1F12169400965814 /* PhotoViewModel.swift in Sources */,
+				421C3CFA1F10F24200965814 /* UserTest.swift in Sources */,
+				421C3CFC1F110AEA00965814 /* PhotoTest.swift in Sources */,
+				421C3D051F1130D100965814 /* UserViewModel.swift in Sources */,
+				421C3CF71F0FF73E00965814 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E7EB8A1EF28E01004C5B61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421C3D181F12210400965814 /* Photo.swift in Sources */,
+				421C3D191F12211800965814 /* PhotoCollectionViewCell.swift in Sources */,
+				421C3D141F12203D00965814 /* SearchViewController.swift in Sources */,
+				421C3D151F1220FA00965814 /* PhotoViewModel.swift in Sources */,
+				421C3D171F12210100965814 /* User.swift in Sources */,
+				421C3D1A1F12211E00965814 /* UserCell.swift in Sources */,
+				421C3D1D1F12214400965814 /* PhotoDetailViewController.swift in Sources */,
+				421C3D111F12200600965814 /* SearchViewControllerTest.swift in Sources */,
+				421C3D161F1220FC00965814 /* UserViewModel.swift in Sources */,
+				421C3D1B1F12212800965814 /* AppDelegate.swift in Sources */,
+				421C3D1E1F12214600965814 /* ProfileViewController.swift in Sources */,
+				421C3CF81F0FF73E00965814 /* Helper.swift in Sources */,
+				421C3D1C1F12213600965814 /* ImageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42E7EB851EF28E01004C5B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42E7EB6B1EF28E01004C5B61 /* Helphy */;
+			targetProxy = 42E7EB841EF28E01004C5B61 /* PBXContainerItemProxy */;
+		};
+		42E7EB901EF28E01004C5B61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42E7EB6B1EF28E01004C5B61 /* Helphy */;
+			targetProxy = 42E7EB8F1EF28E01004C5B61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42AE6D3B1EF29FD200F49CD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AE6D3C1EF29FD200F49CD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42E7EB7B1EF28E01004C5B61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42E7EB7C1EF28E01004C5B61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42944BBC1F0DA87A004DE716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Helphy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "iocreate.Helphy-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42944BBD1F0DA87A004DE716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Helphy copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "iocreate.Helphy-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		42E7EB951EF28E01004C5B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42E7EB961EF28E01004C5B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42E7EB981EF28E01004C5B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72B65135680436916F6F2230 /* Pods-Helphy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Helphy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iocreate.Helphy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		42E7EB991EF28E01004C5B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2135B32AFC9042BD67776C72 /* Pods-Helphy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Helphy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iocreate.Helphy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		42E7EB9B1EF28E01004C5B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614A56E2F872336229759D89 /* Pods-HelphyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelphyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iocreate.HelphyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helphy.app/Helphy";
+			};
+			name = Debug;
+		};
+		42E7EB9C1EF28E01004C5B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45244482D5321155919BF9D7 /* Pods-HelphyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelphyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iocreate.HelphyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Helphy.app/Helphy";
+			};
+			name = Release;
+		};
+		42E7EB9E1EF28E01004C5B61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62447EE562A5A00CE4C9FFA /* Pods-HelphyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseUI\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleSignIn\"",
+					"${PODS_ROOT}/Firebase/Core/Source",
+				);
+				INFOPLIST_FILE = HelphyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iocreate.HelphyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Helphy;
+			};
+			name = Debug;
+		};
+		42E7EB9F1EF28E01004C5B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0E5946BE85A53471776D9C /* Pods-HelphyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/Core/Sources",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalytics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAuth\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseUI\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleSignIn\"",
+					"${PODS_ROOT}/Firebase/Core/Source",
+				);
+				INFOPLIST_FILE = HelphyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iocreate.HelphyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Helphy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42944BBB1F0DA87A004DE716 /* Build configuration list for PBXNativeTarget "Helphy Development" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42944BBC1F0DA87A004DE716 /* Debug */,
+				42944BBD1F0DA87A004DE716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E7EB671EF28E01004C5B61 /* Build configuration list for PBXProject "Helphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E7EB951EF28E01004C5B61 /* Debug */,
+				42E7EB961EF28E01004C5B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E7EB971EF28E01004C5B61 /* Build configuration list for PBXNativeTarget "Helphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E7EB981EF28E01004C5B61 /* Debug */,
+				42E7EB991EF28E01004C5B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E7EB9A1EF28E01004C5B61 /* Build configuration list for PBXNativeTarget "HelphyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E7EB9B1EF28E01004C5B61 /* Debug */,
+				42E7EB9C1EF28E01004C5B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E7EB9D1EF28E01004C5B61 /* Build configuration list for PBXNativeTarget "HelphyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E7EB9E1EF28E01004C5B61 /* Debug */,
+				42E7EB9F1EF28E01004C5B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		42E7EB761EF28E01004C5B61 /* Helphy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				42E7EB771EF28E01004C5B61 /* Helphy.xcdatamodel */,
+			);
+			currentVersion = 42E7EB771EF28E01004C5B61 /* Helphy.xcdatamodel */;
+			path = Helphy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 42E7EB641EF28E01004C5B61 /* Project object */;
+}
